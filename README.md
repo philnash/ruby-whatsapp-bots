@@ -2,6 +2,10 @@
 
 This is a repo of WhatsApp bots built in Ruby using the [Twilio API for WhatsApp](https://www.twilio.com/docs/sms/whatsapp/api). There is one bot so far, a Sinatra application that can return facts and pictures about dogs and cats.
 
+## How to build a bot
+
+See the blog post [Build a WhatsApp chatbot with Ruby, Sinatra and Twilio](https://www.twilio.com/blog/speech-recognition-browser-web-speech-api) to see how to get started with building bots.
+
 ## Running the bot
 
 You will need the following to run this bot:
