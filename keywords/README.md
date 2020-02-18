@@ -14,6 +14,10 @@ If you send it "cat" it will respond with a fact about and a picture of a cat th
 
 If you send a message that doesn't include "cat" or "dog" it will respond to say "I only know about dogs or cats, sorry!"
 
+## Build this bot yourself
+
+You can see how to build this bot in the blog post [Build a WhatsApp chatbot with Ruby, Sinatra and Twilio](https://www.twilio.com/blog/whatsapp-chatbot-ruby-sinatra-twilio).
+
 ## Running the bot
 
 Follow the instructions from the main [README](../README.md) to download the project, install the dependencies, set up the environment variables, and configure the WhatsApp sandbox.

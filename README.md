@@ -10,7 +10,7 @@ There is one bot so far:
 
 ## How to build a bot
 
-See the blog post [Build a WhatsApp chatbot with Ruby, Sinatra and Twilio](https://www.twilio.com/blog/speech-recognition-browser-web-speech-api) to see how to get started with building bots.
+See the blog post [Build a WhatsApp chatbot with Ruby, Sinatra and Twilio](https://www.twilio.com/blog/whatsapp-chatbot-ruby-sinatra-twilio) to see how to get started with building bots.
 
 ## Running the bots
 
