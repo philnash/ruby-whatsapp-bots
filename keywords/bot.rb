@@ -2,7 +2,6 @@ require "sinatra/base"
 
 class KeywordBot < Sinatra::Base
   # This will ensure that webhook requests definitely come from Twilio.
-  puts ENV["TWILIO_AUTH_TOKEN"]
   use Rack::TwilioWebhookAuthentication, ENV['TWILIO_AUTH_TOKEN'], '/bot'
 
   # When we receive a POST request to the /bot endpoint this code will run.
