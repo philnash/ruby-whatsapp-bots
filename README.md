@@ -56,6 +56,8 @@ cp config/env.yml.example config/env.yml
 
 Get your Twilio auth token from your [Twilio console](https://www.twilio.com/console/) and add it to `config/env.yml`.
 
+To use the location bot, [sign up for a free Dark Sky API key](https://darksky.net/dev/register) and add that to `config/env.yml`.
+
 #### Run the app
 
 Change into the directory of the bot you want to run. Then run the application with:
