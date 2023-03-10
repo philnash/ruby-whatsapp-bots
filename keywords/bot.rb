@@ -69,20 +69,24 @@ module Cat
 end
 
 module Dog
-  # Get a random fact about dogs thanks to https://kinduff.github.io/dog-api/.
+  # Get a random fact about dogs thanks to https://dogapi.dog.
   #
-  # API URL: "http://dog-api.kinduff.com/api/facts"
+  # API URL: "https://dogapi.dog/api/v2/facts"
   # Example API response:
   # {
-  #   "facts":
-  #   [
-  #     "Dogs have three eyelids. The third lid, called a nictitating membrane or \"haw,\" keeps the eye lubricated and protected."
-  #   ],
-  #   "success":true
+  #   "data": [
+  #     {
+  #       "id": "05e0601b-c669-44d6-8308-ea9f7ce48dd6",
+  #       "type": "fact",
+  #       "attributes": {
+  #         "body": "The average city dog lives 3 years longer than a country dog."
+  #       }
+  #     }
+  #   ]
   # }
   def self.fact
-    response = HTTP.get("https://dog-api.kinduff.com/api/facts")
-    JSON.parse(response.to_s)["facts"].first
+    response = HTTP.get("https://dogapi.dog/api/v2/facts")
+    JSON.parse(response.to_s)["data"].first["attributes"]["body"]
   end
 
   # Get a random picture of a dog thanks to https://dog.ceo/.
